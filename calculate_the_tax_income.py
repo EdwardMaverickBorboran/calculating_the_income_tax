@@ -20,15 +20,15 @@ given_income = 45000
 
 # Use if else statement to calculate the tax income
 if given_income >= 20000:
-    need_tax_2 = given_income - 20000
-    twenty_tax = need_tax_2*0.2
+    need_tax_20 = given_income - 20000
+    twenty_tax = need_tax_20*0.2
     total_twenty_tax =  twenty_tax + 1000
-    print("Your current balance is:", total_twenty_tax)
+    print("0 +","1000.0 +", twenty_tax,"=", total_twenty_tax)
 
 elif given_income >= 10000:
-    need_tax = given_income - 10000
-    ten_tax = need_tax*0.1
-    print("Your current balance is:", ten_tax)
+    need_tax_10 = given_income - 10000
+    ten_tax = need_tax_10*0.1
+    print("0 +",ten_tax,"=", ten_tax)
 
 else:
     given_income < 10000
